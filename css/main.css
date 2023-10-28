@@ -15,3 +15,17 @@
   img {
     width: 100px;
   }
+  
+  .fandw {
+    margin-block: 200px;
+  }
+  
+  .menu {
+    background-color: #14d9c4;
+    text-transform: uppercase;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
