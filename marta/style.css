@@ -1,0 +1,47 @@
+*{
+    background-color: white;
+}
+
+.rect{
+    background-color: white;
+    margin-top: 401px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.frase{
+    background-color: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 14px;
+    margin-bottom: 16px;
+    height: 50px;
+    width: 260px;
+    color: black;
+    font-weight: bold;
+    font: size 30px;
+    text-alig: 30px;
+    vertical-align: auto;
+    line-height: 1.5;
+    
+    }
+
+.Equipo{
+    color: turquoise;
+    margin-top: 14px;
+    margin-right: 116,5px;
+    margin-left: 114,5px;
+    background-color: white;
+    text-align:center;
+    
+  }
+
+.parrafo Equipo{
+    color: grey;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    background-color: white;
+    text-align: center;
+       
+    }
