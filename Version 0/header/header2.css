@@ -18,15 +18,16 @@ body {
 }
 
 .Cabecera {
-    width: 320px;
-    height: 421px;
+    width: 100%;
+    height: 42.1rem;
     margin: 0 0 46px 0;
     padding: 0;
     background:url(https://www.vanguardia.com/binrepository/716x477/0c0/0d0/none/12204/KNHF/web_how-to-build-_big_tp_VL422330_MG19942968.jpg) left top no-repeat;
+    background-size: cover;
 }
 .top {
     position: sticky;
-    width: 32rem;
+    width: 100%;
     height: 10.5rem;
     box-sizing: border-box;
     display: block;
@@ -34,7 +35,7 @@ body {
 }
 .header__base {
    
-    width: 32rem;
+    width: 100%;
     height: 6rem;
     padding: 1.5rem 8rem;
     opacity: 0.95;
@@ -72,12 +73,34 @@ body {
 }
 
 .Equipo, .Quienes-somos, .Contacto {
-    margin-inline: auto;
+    margin: 0 auto;
     font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
+    color: white;
+    display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    color: white;
+}
+
+@media (max-width: 768px) {
+    body {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .Cabecera {
+        height: 30rem;
+    }
+
+    .top {
+        height: 10.5rem;
+    }
+
+    .Rectangle {
+        height: auto;
+    }
+
+    
 }
