@@ -1,6 +1,10 @@
-*{background-color: white;
-    
+.contacto-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .contacto{
     background-color: white;
     margin-top: 30px;
