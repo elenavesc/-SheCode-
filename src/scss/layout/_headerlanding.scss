@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    max-width: 32rem;
+    max-width: 100%;
     margin: 0 auto;
     font-family: "Rubik", sans-serif;
     font-size: 1.6rem;
@@ -18,21 +18,26 @@ body {
 }
 
 .Cabecera {
-    width: 320px;
-    height: 421px;
+    width: 100%;
+    height: 42.1rem;
     margin: 0 0 46px 0;
     padding: 0;
-    background: url(https://okdiario.com/img/2018/08/10/como-hacer-un-escritorio.jpg) left top no-repeat;
+    background: url(https://img.freepik.com/foto-gratis/vista-espacio-trabajo-oficina-desordenado-computadora-personal_23-2150282050.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699056000&semt=ais) left top no-repeat;
+    background-size: cover;
 }
+
 .top {
     position: sticky;
-    width: 32rem;
+    width: 100%;
     height: 10.5rem;
     box-sizing: border-box;
     display: block;
-   
 }
+
 .header__base {
+    width: 100%;
+    height: 6rem;
+    padding: 1.5rem 8rem;
     opacity: 0.95;
     background-color: #099d8d;
     box-sizing: border-box;
@@ -55,8 +60,8 @@ body {
 }
 
 .Rectangle {
-    opacity: 0.9;
     height: 4.5rem;
+    opacity: 0.9;
     background-color: #14d9c4;
     box-sizing: border-box;
     display: flex;
@@ -64,16 +69,88 @@ body {
     align-items: center;
     gap: 0.8rem;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .Equipo, .Quienes-somos, .Contacto {
-    margin-inline: auto;
+    margin: 0 auto;
     font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
+    color: white;
+    display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-evenly;
-    color: white;
+    justify-content: space-around;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    body {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .Cabecera {
+        height: 42.1rem;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__base {
+        justify-content: left;
+    }
+
+    .Nombre-del-grupo {
+        justify-content: left;
+    }
+
+    .Rectangle {
+        background-color: #099d8d;
+        flex-direction: row;
+        height: 6rem;
+        opacity: 0.95;
+        padding-right: 4rem;
+    }
+    .Quienes-somos {
+        white-space: nowrap;  
+    }
+
+}
+@media (min-width: 1201px) {
+    body {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .Cabecera {
+        height: 55rem;
+    }
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__base {
+        justify-content: left;
+    }
+
+    .Nombre-del-grupo {
+        justify-content: left;
+    }
+
+    .Rectangle {
+        background-color: #099d8d;
+        flex-direction: row;
+        height: 6rem;
+        opacity: 0.95;
+        padding-right: 4rem;
+    }
+    .Quienes-somos {
+        white-space: nowrap;  
+    }
+
 }
