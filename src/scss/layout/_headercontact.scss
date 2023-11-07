@@ -72,7 +72,7 @@ body {
     justify-content: space-around;
 }
 
-.Equipo, .Quienes-somos, .Contacto {
+.Equip, .Quienes-somos, .Contacto {
     
     font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
@@ -87,7 +87,6 @@ body {
 @media (min-width: 768px) and (max-width: 1200px) {
     body {
         max-width: 100%;
-        padding: 0 20px;
     }
 
     .Cabecera {
@@ -122,7 +121,6 @@ body {
 @media (min-width: 1201px) {
     body {
         max-width: 100%;
-        padding: 0 20px;
     }
 
     .Cabecera {
