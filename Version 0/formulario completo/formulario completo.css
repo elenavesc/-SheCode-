@@ -18,9 +18,10 @@
 }
 
 .contacto-formulario {
-    margin:0 auto;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    padding-left: 15px;
+    box-sizing: border-box;
+    
 }
 
 .contacto{
@@ -166,8 +167,10 @@
 
     .contacto-formulario{
         margin: 0 auto;
+        padding-left: 15px;
         width: 442px;
         box-sizing: border-box;
+        
     }
 
     .form{
@@ -208,6 +211,7 @@
 
     .contacto-formulario{
         margin: 0 auto;
+        padding-left: 15px;
         width: 601px;
         box-sizing: border-box;
     }
