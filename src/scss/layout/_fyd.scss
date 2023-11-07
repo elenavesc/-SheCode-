@@ -8,8 +8,9 @@
   font-size: 62.5%;
   font-family: "Open Sans", sans-serif;
 }
+.container{
 
-.container-df {
+&__df {
   width: 320px;
   margin: 0 auto;
   height: auto;
@@ -18,15 +19,15 @@
   position: relative;
 }
 
-.container-df-white {
-  width: 30px;
-  height: 30px;
+&__df__white {
+  width: 2rem;
+  height: 2rem;
   background-color: white;
   position: absolute;
-  transform: translate(0px, -15px) rotate(45deg);
+  transform: translate(0px, -1rem) rotate(45deg);
 }
 
-.container-df-bg {
+&__df__bg {
   background-color: #b8b8b9;
   opacity: 0.2;
   width: 100%;
@@ -36,23 +37,26 @@
   bottom: 0;
 }
 
-.container-df-text {
+&__df__text {
   display: block;
-  padding-top: 40px;
-  padding-bottom: 15px;
+  padding-top: 2.5rem;
+  padding-bottom: 0.938rem;
+}
 }
 
-.df-block {
+.df{
+
+&__block {
   display: block;
-  margin: 0 15px;
+  margin: 0 0.938rem;
 }
 
-.df-header {
+&__header {
   color: #099d8d;
   width: 100%;
-  height: 45px;
+  height: 2.813rem;
   font-family: "Rubik", sans-serif;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -62,15 +66,15 @@
   position: relative;
 }
 
-.df-text {
+&__text {
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  padding-bottom: 25px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 1.563rem;
   color: black;
 }
-
+}
 @media screen and (min-width: 320px) {
   .container-df {
     width: 320px;
@@ -81,27 +85,27 @@
   .container-df {
     width: 768px;
   }
-  .container-df-text {
+  .container__df__text {
     display: flex;
     flex-direction: row;
-    margin: 0 30px;
+    margin: 0 1.875rem;
   }
-  .df-block {
+  .df__block {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .container-df {
+  .container__df {
     width: 1200px;
   }
-  .container-df-text {
+  .container__df__text {
     display: flex;
     flex-direction: row;
-    margin: 0 50px;
+    margin: 0 3.125rem;
   }
-  .df-block {
+  .df__block {
     display: block;
-    margin: 0 30px;
+    margin: 0 1.875rem;
   }
 }
