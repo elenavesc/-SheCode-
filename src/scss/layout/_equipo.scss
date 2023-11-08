@@ -39,25 +39,18 @@
 
     &__section{
             grid-column: 1 span;
-            margin: 0px 15px 30px 15px;
+            margin: 0px 15px 0px 15px;
             padding: 0px;
             color: #54585a;
             font-family:'Open Sans', sans-serif;
             text-align:center;
             font-size: 16px;
             line-height: 24px;
+        
+        &__text{
+            padding-bottom:30px
         }
-
-    &__br{
-            margin: 0px;
-            padding: 0px;
-            font-family:'Open Sans', sans-serif;
-            font-family:'Open Sans', sans-serif;
-            text-align:center;
-            text-align:center;
-            font-size: 16px;
-            line-height: 10px;
-        }
+    }
 }
 
 /* tablet */
@@ -89,6 +82,7 @@
         .rectangle1{
             height: 90px;
             width: 574px;
+            opacity: 80%;
             margin: -90px 488px 0px 138px;
             padding: inherit; 
                     
