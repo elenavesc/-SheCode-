@@ -22,8 +22,9 @@ body {
     height: 42.1rem;
     margin: 0 0 46px 0;
     padding: 0;
-    background: url(https://img.freepik.com/foto-gratis/vista-espacio-trabajo-oficina-desordenado-computadora-portatil_23-2150282016.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699315200&semt=ais) left top no-repeat;
+    background: image(url(https://img.freepik.com/foto-gratis/vista-espacio-trabajo-oficina-desordenado-computadora-portatil_23-2150282016.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699315200&semt=ais));
     background-size: cover;
+    background-position: relative; z-index:1 ;
 }
 
 .top {
@@ -82,6 +83,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: space-around;
+    text-decoration: none;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
