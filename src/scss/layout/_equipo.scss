@@ -8,7 +8,7 @@
     height: 80px;
     width: 290px;
     margin: -40px 15px 0px 15px;
-    padding: inherit;
+    align-items: center;
 
     &__lema{
         grid-column: 1 span;
@@ -48,10 +48,11 @@
             line-height: 24px;
         
         &__text{
-            margin-bottom: 15px;
+             margin-bottom: 30px;
+            }
         }
     }
-}
+
 
 /* tablet */
     @media (min-width: 768px) and (max-width: 1200px) {
@@ -97,15 +98,20 @@
             height: 357px;
             width: 1200px;
             padding: 45px 300px 60px 299px;
+            align-items: center;
+            margin: 0 auto;
+            justify-content: center;
                     
             &__title {
                 width: 601px;
+                margin: 0 auto;
                 color: #099d8d;
                 align-items: center;
                 }
         
             &__section{
                 width: 601px;
+                margin: 0 auto;
                 opacity: 67%;
                 align-items: center;
             }
