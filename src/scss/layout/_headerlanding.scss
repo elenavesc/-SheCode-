@@ -23,7 +23,9 @@ body {
     height: 42.1rem;
     padding: 0;
     background-size: cover;
-    background-image: url("../../../public/images/imagenequipo.jpg")
+    background-image: url("../../../public/images/imagenequipo.jpg");
+    position: relative;
+    z-index: 1;
 }
 
 
