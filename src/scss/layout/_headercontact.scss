@@ -8,13 +8,6 @@ html {
     font-size: 62.5%;
 }
 
-body {
-    max-width: 100%;
-    font-family: "Rubik", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: white;
-}
 
 .header {
     position: sticky;
@@ -77,7 +70,7 @@ body {
     height: 42.1rem;
     margin-top: -150px;
     background-size: cover;
-    background-image: url(../../../public/images/imagencontacto.jpg)
+    background-image: url("../../../public/images/imagencontacto.jpg");
     position: relative;
     z-index: 1;
 }
