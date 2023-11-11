@@ -3,14 +3,14 @@
   display: grid;
   justify-content: center;
   margin: 1.5em 0;
-
+  border-top: solid 1px #b8b8b9;
 
 }
 .container_footer_name{
-  font-size: 0.875 em;
+  font-size: 1em;
   color: #b8b8b9;
   text-align: center;
-  margin: 1em 0;
+  margin: 2em 0;
 }
 
 .container_footer_nav{
@@ -21,6 +21,7 @@
 text-align: center;
 text-transform: uppercase;
 margin: 0.5em 0;
+font-size: 1em;
 }
  
 .footer_link{
