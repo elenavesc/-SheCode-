@@ -70,11 +70,16 @@ html {
     height: 42.1rem;
     margin-top: -150px;
     background-size: cover;
-    background-image: url("../../../public/images/imagenequipo.jpg");
     position: relative;
     z-index: 1;
 }
 
+.landing .hero {
+    background-image: url('../images/imagenequipo.jpg');
+}
+.contact .hero {
+    background-image: url('../images/imagencontacto.jpg');
+}
 
 
 @media (min-width: 768px) and (max-width: 1200px) {
