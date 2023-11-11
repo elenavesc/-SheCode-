@@ -16,13 +16,18 @@ body {
     color: white;
 }
 
+
+
 .Cabecera {
     width: 100%;
     height: 42.1rem;
     padding: 0;
     background-size: cover;
-    background: url(https://cdn.shortpixel.ai/spai/w_898+q_+ret_img+to_webp/https://www.eude.es/wp-content/uploads/2021/02/Disen%CC%83o-sin-ti%CC%81tulo-3-820x450.png);
+    background-image: url("../../../public/images/imagenequipo.jpg");
+    position: relative;
+    z-index: 1;
 }
+
 
 .top {
     position: sticky;
@@ -73,17 +78,21 @@ body {
 }
 
 .Equip, .Quienes-somos, .Contacto {
-    
     font-family: "Rubik", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    color: white;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    text-decoration: none;
 }
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 @media (min-width: 768px) and (max-width: 1200px) {
     body {

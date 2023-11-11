@@ -20,11 +20,11 @@
 }
 
 &__df__white {
-  width: 2rem;
-  height: 2rem;
+  width: 2em;
+  height: 2em;
   background-color: white;
   position: absolute;
-  transform: translate(0px, -1rem) rotate(45deg);
+  transform: translate(0px, -1em) rotate(45deg);
 }
 
 &__df__bg {
@@ -39,8 +39,8 @@
 
 &__df__text {
   display: block;
-  padding-top: 2.5rem;
-  padding-bottom: 0.938rem;
+  margin: 2.5em 2em;
+  font-size: 1em;
 }
 }
 
@@ -48,31 +48,30 @@
 
 &__block {
   display: block;
-  margin: 0 0.938rem;
+  margin: 0 0.938em;
 }
 
 &__header {
   color: #099d8d;
   width: 100%;
-  height: 2.813rem;
   font-family: "Rubik", sans-serif;
-  font-size: 1.375rem;
+  font-size: 1.5em;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 2.05;
   letter-spacing: normal;
   text-align: center;
   position: relative;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 &__text {
   text-align: center;
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  padding-bottom: 1.563rem;
-  color: black;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #54585a;
 }
 }
 @media screen and (min-width: 320px) {
@@ -82,30 +81,32 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container-df {
+  .container__df {
     width: 768px;
   }
   .container__df__text {
     display: flex;
     flex-direction: row;
-    margin: 0 1.875rem;
   }
   .df__block {
     width: 50%;
   }
+  .df__header {
+    margin-top: 0;
+  }
 }
+
 
 @media screen and (min-width: 1200px) {
   .container__df {
     width: 1200px;
   }
   .container__df__text {
-    display: flex;
-    flex-direction: row;
-    margin: 0 3.125rem;
+    margin-left: 3em;
+    margin-right: 3em;
   }
   .df__block {
     display: block;
-    margin: 0 1.875rem;
+    margin: 0 1.875em;
   }
 }
