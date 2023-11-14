@@ -24,7 +24,7 @@
   display: grid;
   grid-template-columns: 1fr;
   background-color: white;
-  width: 320px;
+  width: 100%;
   padding: 30px 15px 30px 15px;
 
   &__title {
@@ -64,7 +64,6 @@
   }
 
   .rectangle2 {
-    width: 768px;
     align-items: center;
 
     &__title {
@@ -97,7 +96,6 @@
 
   .rectangle2 {
     height: 357px;
-    width: 1200px;
     padding: 45px 300px 60px 299px;
     align-items: center;
     margin: 0 auto;

@@ -10,7 +10,7 @@
 }
 .container {
   &__df {
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
     height: auto;
     display: flex;
@@ -72,16 +72,8 @@
     color: #54585a;
   }
 }
-@media screen and (min-width: 320px) {
-  .container-df {
-    width: 320px;
-  }
-}
 
 @media screen and (min-width: 768px) {
-  .container__df {
-    width: 768px;
-  }
   .container__df__text {
     display: flex;
     flex-direction: row;
@@ -95,9 +87,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .container__df {
-    width: 1200px;
-  }
   .container__df__text {
     margin-left: 3em;
     margin-right: 3em;

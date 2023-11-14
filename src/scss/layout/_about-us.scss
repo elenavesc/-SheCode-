@@ -21,8 +21,8 @@
 .members {
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 
   &__profilepic {
     display: flex;
@@ -141,7 +141,8 @@
 
 @media (min-width: 1200px) {
   .about-us {
-    width: 768px;
+    width: auto;
+    height: auto;
     margin: 0 auto;
     box-sizing: border-box;
   }
@@ -152,6 +153,8 @@
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
+    margin-right: 138px;
+    margin-left: 138px;
 
     &__profilepic {
       width: 278px;
