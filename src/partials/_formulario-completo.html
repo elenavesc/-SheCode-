@@ -1,16 +1,16 @@
 <main class="form">
     <div class="form__contact" id="#_contacto">
         <h1 class="form__contact__title">CONTACTO</h1>
+        <div>
+            <img class="form__contact__salem" src="./images/salem.gif" alt="salem photo">
+        </div>
+        <P class="form__contact__text">Si deseas ponerte en contacto con las heroinas de este cuento, no dudes en escribir a nuestro ayudante Salem. Estará encantado de atenderte. Muchas gracias. Un saludo. Las Magas del Código.</P>
 
-        <P class="form__contact__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab numquam soluta, fugit
-            harum possimus rem saepe sequi temporibus aliquid itaque sit laborum, quis ipsam inventore voluptas
-            explicabo molestias. Ea, laudantium?</P>
-
-        <p class="form__contact__info">Todos los campos marcados con <strong class="info_asterisco">*</strong> son
+        <p class="form__contact__info">Todos los campos marcados con <strong class="form__contact__info__asterisco">*</strong> son
             obligatorios</p>
     </div>
     <section class="form__application">
-        <form class="form__application__contact" action="https://adalab-server-form.herokuapp.com/" method="post">
+        <form class="form__application__contact" action="https://formspree.io/f/mbjvegey" method="post">
             <label class="label-form" for="name">
                 <span class="question">Nombre Completo<span class="text-style-1">*</span></span>
                 <input class="field" type="text" name="name" id="name" placeholder="Tu nombre" autocomplete="name"
@@ -22,9 +22,9 @@
                     <input class="field" type="email" name="email" id="email" placeholder="Tu mejor email"
                         autocomplete="email" required>
                 </label>
-                <label class="label-form" for="phone">
-                    <span class="question">Teléfono<span class="text-style-1">*</span></span>
-                    <input class="field" type="text" name="phone" id="phone" placeholder="Ej:123456789"
+                <label class="label-form" for="tel">
+                    <span class="question">Teléfono</span>
+                    <input class="field" type="text" name="tel" id="tel" placeholder="Ej:123456789"
                         autocomplete="tel">
                 </label>
             </div>

@@ -2,19 +2,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-:root{
-    --gunmetal:#54585a;
-    --aqua:#14d9c4;
-    --cool-grey:#b8b8b9;
-    --blue-green:#099d8d;
-    --white:#ffffff;
-}
-
 .form {
     width: 320px;
     margin:0 auto;
     padding: 30px 15px 60px;
-    background-color: var(--white); 
+    background-color: $white; 
 
     &__contact {
         margin:0 auto;
@@ -23,18 +15,23 @@
         align-items: center;
         
         &__title {
-            background-color: var(--white);
+            background-color: &white;
             margin-left: 97,5px;
             margin-right: 95,5px;
             text-align: center;
             font-family:'Rubik', sans-serif;
             font-size: 24px;
             line-height: 45px;
-            color: #099d8d;
+            color: $blue-green;
             }
 
+        &__salem{
+            width: 50px;
+            height: 50px;
+        }
+
         &__text{
-            background-color: var(--white);
+            background-color: $white;
             margin-top: 15px;
             margin-left: 15px;
             margin-right: 15px;
@@ -42,27 +39,27 @@
             font-size: 16px;
             text-align: center;
             line-height: 24px;
-            color: #54585a;
+            color: $gunmetal;
             }
 
         &__info {
             margin-top: 30px;
             margin-left: 15px;
             margin-right: 15px;
-            background-color: var(--white);
+            background-color: $white;
             text-align:center;
             font-family: 'Open Sans', sans-serif;
             font-size: 12px;
             line-height: 24px;
-            color: #54585a;
+            color: $gunmetal;
             
             &__asterisco {
-                background-color: var(--white);
+                background-color: $white;
                 margin-left: 0px;
                 margin-right: 0px;
                 font-weight: bold;
                 font-family: 'Open Sans', sans-serif;
-                color: aqua;
+                color: $aqua;
                 font-size: 12px;
                 line-height: 24px;
             }
@@ -72,7 +69,7 @@
 .form__application {
     box-sizing: border-box;
     margin: 50px auto;
-    width: 320px;
+    width: 100%;
 
     &__contact {
         font-family: 'Open Sans', sans-serif;
@@ -82,7 +79,7 @@
         font-style: normal;
         line-height: normal;
         letter-spacing: normal;
-        color:var(--gunmetal);
+        color:$gunmetal;
         box-sizing: border-box;
         padding: 0px 15px 30px;
     }
@@ -112,14 +109,13 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color:var(--cool-grey);
+    color: $cool-grey;
     padding-left: 7px;
     margin-top: 11px;
-
 }
 
 .text-style-1{
-    color:var(--aqua);
+    color: $aqua;
     margin-left: 5px;
 }
 
@@ -129,7 +125,7 @@
     margin: 30px 0 60px;
     padding:11px 37px;
     border-radius: 4px;
-    background-color: var(--blue-green);
+    background-color: $blue-green;
     color:white;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -151,7 +147,7 @@
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: var(--cool-grey);
+    color: $cool-grey;
 }
 
 @media (min-width:768px){
