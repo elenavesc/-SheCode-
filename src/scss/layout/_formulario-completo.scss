@@ -27,8 +27,8 @@
 
     &__salem {
       margin: 0 auto;
-      width: 250px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
       margin-top: 30px;
       text-align: center;
     }
@@ -69,6 +69,13 @@
     }
   }
 }
+
+.form__contact__salem__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form__application {
   box-sizing: border-box;
   margin: 50px auto;
