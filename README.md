@@ -6,7 +6,7 @@
 
 Decididas a escribir su propia historia en líneas de código, se llamaban a sí mismas SheCode/>, un nombre que resonaba a empoderamiento y determinación.
 
-## En busca de Libertad y estabilidad
+## En busca de libertad y estabilidad
 
 Su viaje comenzó con el deseo de explorar nuevos horizontes y buscar estabilidad en un mundo, a menudo, caótico. No conformes con las trayectorias tradicionales, estas mujeres se sumergieron en el arte de la programación, buscando la libertad de movimiento que solo el mundo digital podía ofrecer.
 
@@ -26,25 +26,25 @@ Hoy, en la encrucijada de la innovación y la igualdad, Shecode/> abre sus puert
 
 Donde la libertad y la creatividad convergen en el mundo de la programación.
 
-# Tecnologías Utilizadas por SheCode
+# Tecnologías utilizadas por SheCode
 
 ## Organización del Proyecto
 
 Mantenemos un proyecto ordenado utilizando un Starter Kit que facilita la organización de nuestros archivos y carpetas.
 
-\*HTML: construyendo la base.
+-HTML: construyendo la base.
 
 Nuestro código HTML sigue buenas prácticas, siendo legible y estructurado, utilizando etiquetas semánticas para una comprensión clara del contenido.
 
-\*CSS / Sass: estilo y elegancia.
+-CSS / Sass: estilo y elegancia.
 
 Optimizamos nuestro código CSS y Sass utilizando características avanzadas como variables y anidación. Preferimos el uso de clases en inglés para una mejor legibilidad.
 
-\*Diseño responsive y posicionamiento.
+-Diseño responsive y posicionamiento.
 
 Hacemos que nuestro sitio sea visualmente atractivo y funcional en todos los dispositivos. Empleamos flexbox, media queries y posicionamiento CSS para un diseño adaptable.
 
-\*Experiencia de usuario.
+-Experiencia de usuario.
 
 Nos enfocamos en proporcionar una experiencia del usuario excepcional. Cuidamos los detalles de diseño y funcionalidad para garantizar que cada visitante disfrute de una navegación intuitiva y agradable.
 
