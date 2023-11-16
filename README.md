@@ -28,7 +28,7 @@ Donde la libertad y la creatividad convergen en el mundo de la programación.
 
 # Tecnologías utilizadas por SheCode/>
 
-## Organización del Proyecto
+## Organización del proyecto
 
 Mantenemos un proyecto ordenado utilizando un Starter Kit que facilita la organización de nuestros archivos y carpetas.
 
