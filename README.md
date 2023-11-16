@@ -32,19 +32,19 @@ Donde la libertad y la creatividad convergen en el mundo de la programación.
 
 Mantenemos un proyecto ordenado utilizando un Starter Kit que facilita la organización de nuestros archivos y carpetas.
 
--HTML: construyendo la base.
+- ### HTML: construyendo la base.
 
 Nuestro código HTML sigue buenas prácticas, siendo legible y estructurado, utilizando etiquetas semánticas para una comprensión clara del contenido.
 
--CSS / Sass: estilo y elegancia.
+- ### CSS / Sass: estilo y elegancia.
 
 Optimizamos nuestro código CSS y Sass utilizando características avanzadas como variables y anidación. Preferimos el uso de clases en inglés para una mejor legibilidad.
 
--Diseño responsive y posicionamiento.
+- #### Diseño responsive y posicionamiento.
 
 Hacemos que nuestro sitio sea visualmente atractivo y funcional en todos los dispositivos. Empleamos flexbox, media queries y posicionamiento CSS para un diseño adaptable.
 
--Experiencia de usuario.
+- ### Experiencia de usuario.
 
 Nos enfocamos en proporcionar una experiencia del usuario excepcional. Cuidamos los detalles de diseño y funcionalidad para garantizar que cada visitante disfrute de una navegación intuitiva y agradable.
 
