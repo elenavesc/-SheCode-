@@ -40,7 +40,7 @@ Nuestro código HTML sigue buenas prácticas, siendo legible y estructurado, uti
 
 Optimizamos nuestro código CSS y Sass utilizando características avanzadas como variables y anidación. Preferimos el uso de clases en inglés para una mejor legibilidad.
 
-- #### Diseño responsive y posicionamiento.
+- ### Diseño responsive y posicionamiento.
 
 Hacemos que nuestro sitio sea visualmente atractivo y funcional en todos los dispositivos. Empleamos flexbox, media queries y posicionamiento CSS para un diseño adaptable.
 
