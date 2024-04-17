@@ -1,51 +1,63 @@
-# SheCode/>: explorando código, creando historias
+# SheCode/>: exploring code, creating stories
 
-Érase una vez, en diferentes rincones del mundo, un grupo de chicas que decidieron desafiar las expectativas y aventurarse en el emocionante mundo de la programación. Cada una tenía su propia razón para tomar este camino, pero todas compartían un deseo común: libertad.
+Once upon a time, in different corners of the world, a group of girls decided to defy expectations and venture into the exciting world of programming. Each had her own reason for taking this path, but all shared a common desire: freedom.
 
-## El comienzo de SheCode/>
+### Landing Page
 
-Decididas a escribir su propia historia en líneas de código, se llamaban a sí mismas SheCode/>, un nombre que resonaba a empoderamiento y determinación.
+In the Landing you will find information about the users, their profiles on different social networks and their contact information.
 
-## En busca de libertad y estabilidad
+![Landing_page-0001](https://github.com/elenavesc/-SheCode-/assets/147326237/1f1689b3-e633-48af-9df6-a99d974926da)
 
-Su viaje comenzó con el deseo de explorar nuevos horizontes y buscar estabilidad en un mundo, a menudo, caótico. No conformes con las trayectorias tradicionales, estas mujeres se sumergieron en el arte de la programación, buscando la libertad de movimiento que solo el mundo digital podía ofrecer.
+### Contact Page
 
-## Creatividad
+On the contact page you will find the option to directly fill in the information boxes with your questions so that they can contact you.
 
-A medida que aprendían el lenguaje de las máquinas, descubrieron también una libertad creativa sin límites. En cada línea de código encontraron la oportunidad de reinventarse a sí mismas y al mundo que las rodeaba. Como verdaderas alquimistas modernas, transformaron la lógica en poesía y la sintaxis en arte.
+![Contacto-Formulario_page-0001](https://github.com/elenavesc/-SheCode-/assets/147326237/b819140e-f746-47b3-9e6b-28297c3ce7e6)
 
-## SheCode/> va más Allá
+## The Beginning of SheCode/>
 
-En su viaje, SheCode/> se convirtió en más que un nombre: demostraron que las mujeres no solo pertenecen a la tecnología, sino que lideran y dejan una huella en el código que da forma al futuro.
+Determined to write their own story in lines of code, they called themselves SheCode/>, a name that resonated with empowerment and determination.
 
-## SheCode/> en la actualidad
+## Seeking Freedom and Stability
 
-Hoy, en la encrucijada de la innovación y la igualdad, Shecode/> abre sus puertas al mundo a través de una página web. Un portal donde sus historias, habilidades y pasiones se entrelazan.
+Their journey began with the desire to explore new horizons and seek stability in a world often chaotic. Unsatisfied with traditional paths, these women immersed themselves in the art of programming, seeking the freedom of movement that only the digital world could offer.
 
-## Bienvenidas a SheCode/>
+## Creativity
 
-Donde la libertad y la creatividad convergen en el mundo de la programación.
+As they learned the language of machines, they also discovered limitless creative freedom. In every line of code, they found the opportunity to reinvent themselves and the world around them. Like true modern alchemists, they transformed logic into poetry and syntax into art.
 
-# Tecnologías utilizadas por SheCode/>
+## SheCode/> Goes Beyond
 
-## Organización del proyecto
+In their journey, SheCode/> became more than a name: they demonstrated that women not only belong in technology but also lead and leave a mark on the code that shapes the future.
 
-Mantenemos un proyecto ordenado utilizando un Starter Kit que facilita la organización de nuestros archivos y carpetas.
+## SheCode/> Today
 
-- ### HTML: construyendo la base.
+Today, at the crossroads of innovation and equality, SheCode/> opens its doors to the world through a website. A portal where their stories, skills, and passions intertwine.
 
-Nuestro código HTML sigue buenas prácticas, siendo legible y estructurado, utilizando etiquetas semánticas para una comprensión clara del contenido.
+## Welcome to SheCode/>
 
-- ### CSS / Sass: estilo y elegancia.
+Where freedom and creativity converge in the world of programming.
 
-Optimizamos nuestro código CSS y Sass utilizando características avanzadas como variables y anidación. Preferimos el uso de clases en inglés para una mejor legibilidad.
+# Technologies Used by SheCode/>
 
-- ### Diseño responsive y posicionamiento.
+## Project Organization
 
-Hacemos que nuestro sitio sea visualmente atractivo y funcional en todos los dispositivos. Empleamos flexbox, media queries y posicionamiento CSS para un diseño adaptable.
+We maintain a tidy project using a Starter Kit that facilitates the organization of our files and folders.
 
-- ### Experiencia de usuario.
+- ### HTML: building the foundation.
 
-Nos enfocamos en proporcionar una experiencia del usuario excepcional. Cuidamos los detalles de diseño y funcionalidad para garantizar que cada visitante disfrute de una navegación intuitiva y agradable.
+Our HTML code follows best practices, being readable and structured, using semantic tags for a clear understanding of the content.
 
-En resumen, en SheCode/> aprendemos para mejorar constantemente, aplicamos tecnologías que aseguran un desarrollo eficiente, un resultado visualmente atractivo y una experiencia del usuario destacada.
+- ### CSS / Sass: style and elegance.
+
+We optimize our CSS and Sass code using advanced features like variables and nesting. We prefer the use of English classes for better readability.
+
+- ### Responsive Design and Positioning.
+
+We make our site visually appealing and functional on all devices. We employ flexbox, media queries, and CSS positioning for responsive design.
+
+- ### User Experience.
+
+We focus on providing an exceptional user experience. We care for design and functionality details to ensure that every visitor enjoys an intuitive and pleasant navigation.
+
+In summary, at SheCode/>, we learn to constantly improve, apply technologies that ensure efficient development, visually appealing results, and outstanding user experience.
